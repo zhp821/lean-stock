@@ -76,7 +76,7 @@ public class BandStrategyService extends ServiceImpl<StockDayMapper, StockDay> i
 			if (s == null) {
 				continue;
 			}
-			if (s.getProfit() < 0.0f || s.getEsp() < 0.0f || s.getPe() > 100.0f) {
+			if (s.getProfit() < 0.0f || s.getEsp() < 0.0f || s.getPe() > 200.0f) {
 				continue;
 			}
 			if (s.getPe() < 1.0f) {
